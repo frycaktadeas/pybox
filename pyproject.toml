@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pybox"
+version = "0.0.1"
+authors = [
+  {name="Tadeáš Fryčák", email="tadeas.frycak@email.cz"}
+]
+description = "Package with ultra light-weight file/dir selection boxes and message dialogs from system"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 3 - Alpha",
+    "Topic :: Desktop Environment :: File Managers",
+    "Topic :: System :: Filesystems",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/frycaktadeas/pybox"
+"Bug Tracker" = "https://github.com/frycaktadeas/pybox/issues"
